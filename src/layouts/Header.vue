@@ -14,7 +14,7 @@ let toggleMobileNav = () => {
     <header class="flex justify-between py-12 items-center">
       <div>
         <a href="/"
-          ><img src="https://i.hizliresim.com/5dofuin.png" alt="Site Logo"
+          ><img src="https://i.hizliresim.com/iodv9xs.png" alt="Site Logo"
         /></a>
       </div>
 
@@ -67,7 +67,7 @@ let toggleMobileNav = () => {
         class="absolute px-5 py-12 block z-30 top-0 left-0 w-full h-full bg-gradient-to-b from-theme-dark-blue via-theme-dark-blue-tp to-theme-dark-blue"
       >
         <div class="flex justify-between items-center">
-          <img src="https://i.hizliresim.com/5dofuin.png" alt="Logo" />
+          <img src="https://i.hizliresim.com/iodv9xs.png" alt="Logo" />
           <button
             @click="toggleMobileNav()"
             type="button"
@@ -149,3 +149,8 @@ let toggleMobileNav = () => {
   </div>
   <!-- Navbar End -->
 </template>
+<style>
+img {
+  max-width: 150px;
+}
+</style>
