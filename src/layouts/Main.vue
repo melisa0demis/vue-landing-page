@@ -8,8 +8,8 @@ import SubscribeSection from "../sections/SubscribeSection.vue";
 
 <template>
   <HeroSection />
-
-  <FeatureSection />
+  <!-- 
+  <FeatureSection /> -->
 
   <DownloadSection />
 
